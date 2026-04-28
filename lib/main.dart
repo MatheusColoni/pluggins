@@ -63,6 +63,7 @@ Future<User> getUser() async {
 
   final map = jsonDecode(response.body);
 
+
   final user = User.fromJson(map);
 
   
